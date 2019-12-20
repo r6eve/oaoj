@@ -1,0 +1,8 @@
+1 2 +
+__INPUT__
+3
+__OUTPUT__
+1 2 + 3 4 - *
+__INPUT__
+3
+__OUTPUT__

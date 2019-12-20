@@ -1,0 +1,2 @@
+let s(a,b)=(b,a)open List;;let rec($)d c=match d with|[x;y;z]->(match c with|'N'->[y;s x;z]|'S'->[s y;x;z]|'E'->[s z;y;x]|'W'->[z;y;s x]|'Z'->[x;z;s y]|_->[])|_->[]and p=function[]->true|x::t->for_all(fun z->not(mem x(concat(map(fun d->[d;d$'Z';d$'Z'$'Z';d$'Z'$'Z'$'Z'])[z;z$'N';z$'W';z$'E';z$'S';z$'S'$'S']))))t&&p t and d=ref[];;for _=1to read_int()do d:=Scanf.scanf"%d %d %d %d %d %d
+"(fun a b c d e f->[(a,f);(b,e);(c,d)])::!d done;print_endline(if p!d then"Yes"else"No")
